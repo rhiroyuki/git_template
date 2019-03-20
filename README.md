@@ -2,11 +2,12 @@
 
 _SOURCE: [tpope's blog](http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html)_
 
-- Say this directory is `~/git_template`. Run the following commands:
-```
-git config --global init.templatedir '~/git_template'
-```
-Make sure the hook files at `./hooks/` are executable.
+
+### Installation
+
+`$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/rhiroyuki/git_template/master/install.sh)"`
+
+### Notes
 
 - Perform `git init` inside an existing repository to copy the hooks at
   `./hooks/` into `repo/.git/hooks/`.
